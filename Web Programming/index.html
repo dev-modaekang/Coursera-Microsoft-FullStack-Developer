@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>홍길동 | Web Developer Portfolio</title>
+    <title>Modae Kang | Web Developer Portfolio</title>
     <meta
       name="description"
-      content="웹 개발자 홍길동의 포트폴리오: 프로젝트, 기술 스택, 연락처 정보를 확인하세요."
+      content="This is the simple porfolio website"
     />
 
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <a class="skip-link" href="#main">본문 바로가기</a>
+    <a class="skip-link" href="#main">Go to Main</a>
 
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="#top" aria-label="홈으로 이동">HG</a>
+        <a class="brand" href="#top" aria-label="Move to Home">MK</a>
 
         <button
           class="hamburger"
           type="button"
-          aria-label="메뉴 열기"
+          aria-label="Open Menu"
           aria-controls="primary-nav"
           aria-expanded="false"
           data-menu-button
@@ -33,7 +33,7 @@
           <span class="hamburger-bar" aria-hidden="true"></span>
         </button>
 
-        <nav id="primary-nav" class="nav" role="navigation" aria-label="주요 메뉴" data-nav>
+        <nav id="primary-nav" class="nav" role="navigation" aria-label="Main Menu" data-nav>
           <ul class="nav-list">
             <li><a href="#about-me">About</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -45,16 +45,15 @@
     </header>
 
     <main id="main">
-      <section class="hero" id="top" aria-label="인트로">
+      <section class="hero" id="top" aria-label="Intro">
         <div class="container hero-inner">
-          <h1>안녕하세요, 홍길동입니다.</h1>
+          <h1>Hello, My name is Modae Kang</h1>
           <p>
-            사용자 경험을 고민하며 만드는 웹 개발자입니다. 접근성, 성능, 유지보수성을
-            중요하게 생각합니다.
+            I'm studying Microsoft Fullstack Developper program at Coursera.
           </p>
           <div class="hero-actions">
-            <a class="btn" href="#projects">프로젝트 보기</a>
-            <a class="btn btn-ghost" href="#contact">연락하기</a>
+            <a class="btn" href="#projects">Check the project</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
           </div>
         </div>
       </section>
@@ -63,8 +62,7 @@
         <div class="container">
           <h2>About Me</h2>
           <p>
-            프론트엔드 중심으로 UI 구현과 인터랙션 설계를 좋아합니다. 팀 협업을 위한
-            문서화와 코드 품질(리팩토링, 테스트)을 꾸준히 개선합니다.
+            I am currently working as an IT Analyst. To strengthen my development-related skill set, I am currently enrolled in the Microsoft Full Stack program.
           </p>
         </div>
       </section>
@@ -73,10 +71,10 @@
         <div class="container">
           <div class="section-head">
             <h2>Projects</h2>
-            <p class="muted">카테고리를 선택해 프로젝트를 필터링할 수 있어요.</p>
+            <p class="muted">You can filter projects by selecting a category.</p>
           </div>
 
-          <div class="filters" role="group" aria-label="프로젝트 필터">
+          <div class="filters" role="group" aria-label="Project Filter">
             <button class="chip is-active" type="button" data-filter="all">All</button>
             <button class="chip" type="button" data-filter="frontend">Frontend</button>
             <button class="chip" type="button" data-filter="backend">Backend</button>
@@ -88,16 +86,16 @@
               <figure class="project-figure">
                 <img
                   src="https://via.placeholder.com/900x600.png?text=Project+1"
-                  alt="프로젝트 1: 반응형 랜딩 페이지 미리보기 이미지"
+                  alt="Project 1: Preparing"
                   loading="lazy"
                   data-lightbox
                 />
-                <figcaption class="sr-only">프로젝트 1 미리보기</figcaption>
+                <figcaption class="sr-only">Preview of Project 1</figcaption>
               </figure>
               <div class="card-body">
                 <h3>Responsive Landing</h3>
-                <p>반응형 레이아웃과 접근성 개선을 목표로 만든 랜딩 페이지.</p>
-                <ul class="taglist" aria-label="기술 스택">
+                <p>Preparing the proejct</p>
+                <ul class="taglist" aria-label="Tech Stack">
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>A11y</li>
@@ -109,16 +107,16 @@
               <figure class="project-figure">
                 <img
                   src="https://via.placeholder.com/900x600.png?text=Project+2"
-                  alt="프로젝트 2: REST API 서버 미리보기 이미지"
+                  alt="Project 2: Preparing"
                   loading="lazy"
                   data-lightbox
                 />
-                <figcaption class="sr-only">프로젝트 2 미리보기</figcaption>
+                <figcaption class="sr-only">Preview of Project 2</figcaption>
               </figure>
               <div class="card-body">
                 <h3>REST API Service</h3>
-                <p>CRUD API 설계 및 간단한 인증 흐름을 구현한 서비스.</p>
-                <ul class="taglist" aria-label="기술 스택">
+                <p>Preparing the proejct<</p>
+                <ul class="taglist" aria-label="Tech Stack">
                   <li>Node.js</li>
                   <li>Express</li>
                   <li>JWT</li>
@@ -130,16 +128,16 @@
               <figure class="project-figure">
                 <img
                   src="https://via.placeholder.com/900x600.png?text=Project+3"
-                  alt="프로젝트 3: 풀스택 투두 앱 미리보기 이미지"
+                  alt="Project 3: Preparing"
                   loading="lazy"
                   data-lightbox
                 />
-                <figcaption class="sr-only">프로젝트 3 미리보기</figcaption>
+                <figcaption class="sr-only">Preview of Project 3</figcaption>
               </figure>
               <div class="card-body">
                 <h3>Fullstack Todo</h3>
-                <p>프론트/백엔드를 연결해 상태 관리와 데이터 저장을 구현.</p>
-                <ul class="taglist" aria-label="기술 스택">
+                <p>Preparing the proejct</p>
+                <ul class="taglist" aria-label="Tech Stack">
                   <li>React</li>
                   <li>API</li>
                   <li>DB</li>
@@ -166,17 +164,17 @@
       <section id="contact" class="section">
         <div class="container">
           <h2>Contact</h2>
-          <p class="muted">아래 폼으로 메시지를 보내주세요. (데모: 실제 전송은 구현하지 않음)</p>
+          <p class="muted">Please send the message using the form below. (Demo only: actual submission is not implemented.)</p>
 
           <form class="contact-form" novalidate data-contact-form>
             <div class="field">
-              <label for="name">이름</label>
+              <label for="name">Name</label>
               <input id="name" name="name" type="text" autocomplete="name" required />
               <p class="error" id="name-error" aria-live="polite"></p>
             </div>
 
             <div class="field">
-              <label for="email">이메일</label>
+              <label for="email">Email</label>
               <input
                 id="email"
                 name="email"
@@ -189,18 +187,18 @@
             </div>
 
             <div class="field">
-              <label for="message">메시지</label>
+              <label for="message">Message</label>
               <textarea
                 id="message"
                 name="message"
                 rows="6"
                 required
-                placeholder="프로젝트 문의/협업 제안 등을 남겨주세요."
+                placeholder="Please leave project inquiries or collaboration proposals."
               ></textarea>
               <p class="error" id="message-error" aria-live="polite"></p>
             </div>
 
-            <button class="btn" type="submit">보내기</button>
+            <button class="btn" type="submit">Send</button>
             <p class="form-status" aria-live="polite" data-form-status></p>
           </form>
         </div>
@@ -209,15 +207,15 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p>© <span data-year></span> 홍길동. All rights reserved.</p>
+        <p>© <span data-year></span> Modae Kang. All rights reserved.</p>
       </div>
     </footer>
 
     <!-- Lightbox Modal -->
-    <div class="lightbox" aria-hidden="true" role="dialog" aria-label="이미지 확대 보기" data-lightbox-modal>
+    <div class="lightbox" aria-hidden="true" role="dialog" aria-label="View enlarged image" data-lightbox-modal>
       <div class="lightbox-backdrop" data-lightbox-close></div>
       <div class="lightbox-content" role="document">
-        <button class="lightbox-close" type="button" aria-label="닫기" data-lightbox-close>×</button>
+        <button class="lightbox-close" type="button" aria-label="Close" data-lightbox-close>×</button>
         <img class="lightbox-img" alt="" data-lightbox-img />
         <p class="lightbox-caption" data-lightbox-caption></p>
       </div>
